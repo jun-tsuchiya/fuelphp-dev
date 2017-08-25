@@ -1,0 +1,339 @@
+[16-Aug-2017 09:38:02 UTC] PHP Fatal error:  Class 'Orm\Model' not found in /home/ubuntu/workspace/sample_system01/fuel/app/classes/model/post.php on line 5
+[16-Aug-2017 09:38:02 UTC] PHP Stack trace:
+[16-Aug-2017 09:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[16-Aug-2017 09:38:02 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[16-Aug-2017 09:38:02 UTC] PHP   3. Fuel\Core\Request->execute() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[16-Aug-2017 09:38:02 UTC] PHP   4. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:38:02 UTC] PHP   5. Controller_Post->action_index() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:38:02 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:38:02 UTC] PHP   7. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:38:02 UTC] PHP   8. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[16-Aug-2017 09:38:02 UTC] PHP   9. include() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:365
+[16-Aug-2017 09:38:30 UTC] PHP Fatal error:  Class 'Orm\Model' not found in /home/ubuntu/workspace/sample_system01/fuel/app/classes/model/post.php on line 5
+[16-Aug-2017 09:38:30 UTC] PHP Stack trace:
+[16-Aug-2017 09:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[16-Aug-2017 09:38:30 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[16-Aug-2017 09:38:30 UTC] PHP   3. Fuel\Core\Request->execute() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[16-Aug-2017 09:38:30 UTC] PHP   4. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:38:30 UTC] PHP   5. Controller_Post->action_index() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:38:30 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:38:30 UTC] PHP   7. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:38:30 UTC] PHP   8. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[16-Aug-2017 09:38:30 UTC] PHP   9. include() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:365
+[16-Aug-2017 09:40:20 UTC] PHP Fatal error:  Class 'Orm\Model' not found in /home/ubuntu/workspace/sample_system01/fuel/app/classes/model/post.php on line 5
+[16-Aug-2017 09:40:20 UTC] PHP Stack trace:
+[16-Aug-2017 09:40:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[16-Aug-2017 09:40:20 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[16-Aug-2017 09:40:20 UTC] PHP   3. Fuel\Core\Request->execute() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[16-Aug-2017 09:40:20 UTC] PHP   4. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:40:20 UTC] PHP   5. Controller_Post->action_index() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[16-Aug-2017 09:40:20 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:40:20 UTC] PHP   7. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:7
+[16-Aug-2017 09:40:20 UTC] PHP   8. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[16-Aug-2017 09:40:20 UTC] PHP   9. include() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:365
+[16-Aug-2017 09:49:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/sample_system01/fuel/app/config/config.php on line 322
+[16-Aug-2017 09:49:35 UTC] PHP Stack trace:
+[16-Aug-2017 09:49:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[16-Aug-2017 09:49:35 UTC] PHP   2. require() /home/ubuntu/workspace/sample_system01/public/index.php:93
+[16-Aug-2017 09:49:35 UTC] PHP   3. Fuel\Core\Fuel::init() /home/ubuntu/workspace/sample_system01/fuel/app/bootstrap.php:24
+[16-Aug-2017 09:49:35 UTC] PHP   4. Fuel\Core\Config::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/fuel.php:134
+[16-Aug-2017 09:49:35 UTC] PHP   5. Fuel\Core\Config_File->load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/config.php:94
+[16-Aug-2017 09:49:35 UTC] PHP   6. Fuel\Core\Config_Php->load_file() /home/ubuntu/workspace/sample_system01/fuel/core/classes/config/file.php:48
+[16-Aug-2017 09:49:35 UTC] PHP   7. Fuel\Core\Fuel::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/config/php.php:87
+[17-Aug-2017 07:12:04 UTC] PHP Parse error:  syntax error, unexpected 'this_ym' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 39
+[17-Aug-2017 07:12:04 UTC] PHP Stack trace:
+[17-Aug-2017 07:12:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:12:04 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:12:04 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:12:04 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:12:04 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:12:04 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:12:04 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:12:04 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:12:04 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:12:04 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:12:04 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:12:04 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:16:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 33
+[17-Aug-2017 07:16:10 UTC] PHP Stack trace:
+[17-Aug-2017 07:16:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:16:10 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:16:10 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:16:10 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:16:10 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:16:10 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:16:10 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:16:10 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:16:10 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:10 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:10 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:10 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:16:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 54
+[17-Aug-2017 07:16:42 UTC] PHP Stack trace:
+[17-Aug-2017 07:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:16:42 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:16:42 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:16:42 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:16:42 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:16:42 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:16:42 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:16:42 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:16:42 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:42 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:42 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:16:42 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:39:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 55
+[17-Aug-2017 07:39:49 UTC] PHP Stack trace:
+[17-Aug-2017 07:39:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:39:49 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:39:49 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:39:49 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:39:49 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:39:49 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:39:49 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:39:49 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:39:49 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:39:49 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:39:49 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:39:49 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:40:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 55
+[17-Aug-2017 07:40:45 UTC] PHP Stack trace:
+[17-Aug-2017 07:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:40:45 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:40:45 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:40:45 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:40:45 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:40:45 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:40:45 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:40:45 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:40:45 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:40:45 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:40:45 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:40:45 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:42:03 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 56
+[17-Aug-2017 07:42:03 UTC] PHP Stack trace:
+[17-Aug-2017 07:42:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:42:03 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:42:03 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:42:03 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:42:03 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:42:03 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:42:03 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:42:03 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:42:03 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:03 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:03 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:03 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:42:22 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 56
+[17-Aug-2017 07:42:22 UTC] PHP Stack trace:
+[17-Aug-2017 07:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:42:22 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:42:22 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:42:22 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:42:22 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:42:22 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:42:22 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:42:22 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:42:22 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:22 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:22 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:42:22 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:44:26 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 55
+[17-Aug-2017 07:44:26 UTC] PHP Stack trace:
+[17-Aug-2017 07:44:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:44:26 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:44:26 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:44:26 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:44:26 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:44:26 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:44:26 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:44:26 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:44:26 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:44:26 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:44:26 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:44:26 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:52:24 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:52:24 UTC] PHP Stack trace:
+[17-Aug-2017 07:52:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:52:24 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:52:24 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:52:24 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:52:24 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:52:24 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:52:24 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:52:24 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:52:24 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:52:24 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:52:24 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:52:24 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:53:52 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:53:52 UTC] PHP Stack trace:
+[17-Aug-2017 07:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:53:52 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:53:52 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:53:52 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:53:52 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:53:52 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:53:52 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:53:52 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:53:52 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:53:52 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:53:52 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:53:52 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:54:06 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:54:06 UTC] PHP Stack trace:
+[17-Aug-2017 07:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:54:06 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:54:06 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:54:06 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:54:06 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:54:06 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:54:06 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:54:06 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:54:06 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:06 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:06 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:06 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:54:18 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:54:18 UTC] PHP Stack trace:
+[17-Aug-2017 07:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:54:18 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:54:18 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:54:18 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:54:18 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:54:18 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:54:18 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:54:18 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:54:18 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:18 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:18 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:54:18 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:55:18 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:55:18 UTC] PHP Stack trace:
+[17-Aug-2017 07:55:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:55:18 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:55:18 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:55:18 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:55:18 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:55:18 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:55:18 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:55:18 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:55:18 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:55:18 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:55:18 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:55:18 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:56:42 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:56:42 UTC] PHP Stack trace:
+[17-Aug-2017 07:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:56:42 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:56:42 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:56:42 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:56:42 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:56:42 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:56:42 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:56:42 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:56:42 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:56:42 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:56:42 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:56:42 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 07:57:55 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 60
+[17-Aug-2017 07:57:55 UTC] PHP Stack trace:
+[17-Aug-2017 07:57:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 07:57:55 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 07:57:55 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 07:57:55 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 07:57:55 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 07:57:55 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 07:57:55 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 07:57:55 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 07:57:55 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:57:55 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:57:55 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 07:57:55 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 08:00:03 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 56
+[17-Aug-2017 08:00:03 UTC] PHP Stack trace:
+[17-Aug-2017 08:00:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 08:00:03 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 08:00:03 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 08:00:03 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 08:00:03 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 08:00:03 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 08:00:03 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 08:00:03 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 08:00:03 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:03 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:03 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:03 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 08:00:13 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 55
+[17-Aug-2017 08:00:13 UTC] PHP Stack trace:
+[17-Aug-2017 08:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 08:00:13 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 08:00:13 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 08:00:13 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 08:00:13 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 08:00:13 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 08:00:13 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 08:00:13 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 08:00:13 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:13 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:13 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:00:13 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 08:02:05 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/calendar.php on line 33
+[17-Aug-2017 08:02:05 UTC] PHP Stack trace:
+[17-Aug-2017 08:02:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 08:02:05 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 08:02:05 UTC] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 08:02:05 UTC] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[17-Aug-2017 08:02:05 UTC] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[17-Aug-2017 08:02:05 UTC] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[17-Aug-2017 08:02:05 UTC] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[17-Aug-2017 08:02:05 UTC] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[17-Aug-2017 08:02:05 UTC] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:02:05 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:02:05 UTC] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[17-Aug-2017 08:02:05 UTC] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[17-Aug-2017 08:27:37 UTC] PHP Fatal error:  Class 'Email' not found in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/mailtest.php on line 7
+[17-Aug-2017 08:27:37 UTC] PHP Stack trace:
+[17-Aug-2017 08:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[17-Aug-2017 08:27:37 UTC] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[17-Aug-2017 08:27:37 UTC] PHP   3. Fuel\Core\Request->execute() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[17-Aug-2017 08:27:37 UTC] PHP   4. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[17-Aug-2017 08:27:37 UTC] PHP   5. Controller_Mailtest->action_index() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[18-Aug-2017 06:09:03 UTC] PHP Parse error:  syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/sample_system01/fuel/app/views/contact/index.php on line 41
+[18-Aug-2017 06:09:03 UTC] PHP Stack trace:
+[18-Aug-2017 06:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[18-Aug-2017 06:09:03 UTC] PHP   2. Fuel\Core\Response->__toString() /home/ubuntu/workspace/sample_system01/public/index.php:117
+[18-Aug-2017 06:09:03 UTC] PHP   3. Fuel\Core\View->__toString() /home/ubuntu/workspace/sample_system01/public/index.php:382
+[18-Aug-2017 06:09:03 UTC] PHP   4. Fuel\Core\View->render() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:227
+[18-Aug-2017 06:09:03 UTC] PHP   5. Fuel\Core\View->process_file() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:678
+[18-Aug-2017 06:09:03 UTC] PHP   6. Fuel\Core\View->Fuel\Core\{closure}() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:274
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/admin.php on line 33
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP Stack trace:
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   3. Fuel\Core\Request::forge() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   4. Fuel\Core\Request->__construct() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:69
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   5. Fuel\Core\Router::process() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:330
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   6. Fuel\Core\Router::parse_match() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:233
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   7. Fuel\Core\Router::parse_segments() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:258
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   8. Fuel\Core\Router::check_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:291
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP   9. class_exists() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP  10. spl_autoload_call() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP  11. Fuel\Core\Autoloader::load() /home/ubuntu/workspace/sample_system01/fuel/core/classes/router.php:332
+[22-Aug-2017 18:17:40 Asia/Tokyo] PHP  12. Fuel\Core\Autoloader::init_class() /home/ubuntu/workspace/sample_system01/fuel/core/classes/autoloader.php:283
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP Fatal error:  Call to a member function get_id() on a non-object in /home/ubuntu/workspace/sample_system01/fuel/packages/auth/classes/auth.php on line 197
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP Stack trace:
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   2. {closure:/home/ubuntu/workspace/sample_system01/public/index.php:54-87}() /home/ubuntu/workspace/sample_system01/public/index.php:96
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   3. Fuel\Core\Request->execute() /home/ubuntu/workspace/sample_system01/public/index.php:71
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   4. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   5. Controller_Admin->action_add_user() /home/ubuntu/workspace/sample_system01/fuel/core/classes/request.php:473
+[23-Aug-2017 11:09:56 Asia/Tokyo] PHP   6. Auth\Auth::check() /home/ubuntu/workspace/sample_system01/fuel/app/classes/controller/admin.php:34
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ')' in /home/ubuntu/workspace/sample_system01/fuel/app/views/contact/index.php on line 9
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP Stack trace:
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/sample_system01/public/index.php:0
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   2. Fuel\Core\Response->__toString() /home/ubuntu/workspace/sample_system01/public/index.php:117
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   3. Fuel\Core\View->__toString() /home/ubuntu/workspace/sample_system01/public/index.php:382
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   4. Fuel\Core\View->render() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:227
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   5. Fuel\Core\View->process_file() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:678
+[23-Aug-2017 12:12:06 Asia/Tokyo] PHP   6. Fuel\Core\View->Fuel\Core\{closure}() /home/ubuntu/workspace/sample_system01/fuel/core/classes/view.php:274
